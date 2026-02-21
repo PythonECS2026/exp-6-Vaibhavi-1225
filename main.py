@@ -1,9 +1,7 @@
 # AIM: WAP to find students appearing for entrance exams
 # Coder:
 # Date:
- print("List of Students:")
-
-cet = {"Alice", "Bob", "Charlie", "Frank"}
+ cet = {"Alice", "Bob", "Charlie", "Frank"}
 jee = {"Bob", "Eve", "Frank", "Heidi"}
 neet = {"Bob", "Charlie", "Karl", "Liam"}
 
@@ -22,6 +20,8 @@ print(f"JEE but not for NEET: {jee_not_neet}")
 
 cet_and_neet_not_jee = (cet & neet) - jee
 print(f"CET and NEET but not for JEE: {cet_and_neet_not_jee}")
+
+
 
 # Write your code here
 # TODO: Find and Print All the Students appearing for any Entrance Exam
